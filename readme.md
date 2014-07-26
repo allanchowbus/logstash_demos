@@ -20,6 +20,6 @@ Install all on the same box - everything's just looking at localhost:
 * elasticsearch 1.1.2
 * kibana 3.1.0
 
-# run elasticsearch with default settings
-# run logstash with the respective config file in the example
-# execute the respective log spewer or schedule it with something like Jenkins to see stuff over time.
+1. run elasticsearch with default settings
+2. run logstash with the respective config file in the example
+3. execute the respective log spewer or schedule it with something like Jenkins to see stuff over time.
