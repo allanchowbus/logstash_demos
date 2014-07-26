@@ -1,18 +1,21 @@
-# Logstash + Elasticsearch + Kibana
+## Logstash + Elasticsearch + Kibana
 
-This is a demo to demonstrate
+Here're some examples for people who want to see Logstash / Elasticsearch in action
 * Grabbing data from a log file for indexing into Elasticsearch 
 * "Parsing" a message to map to field names and types
 * Seeing stuff on Kibana
 
 What's in Here
-* Script for generating data
-* Logstash config file for grabbing the data
-* Kibana Dashboard to see queries and charts
+* Scripts for generating data
+* Logstash config files for grabbing/accepting the data and tossing it to Elasticsearch
 
-# Prequisites
+Demos
+* File logging
+* Log4j
 
-Install all on the same box:
+## Setup
+
+Install all on the same box - everything's just looking at localhost:
 * logstash 1.4.2
 * elasticsearch 1.1.2
 * kibana 3.1.0
