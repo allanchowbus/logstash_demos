@@ -11,7 +11,7 @@ class LogSpewer{
 
       def d = { randomNumber -> log.debug 'DEBUGGING MESSAGE VALUE = ' + randomNumber }
       def i = { randomNumber -> log.info 'INFO MESSAGE VALUE = ' + randomNumber }
-      def w = { randomNumber -> log.warning 'WARNING MESSAGE VALUE = ' + randomNumber }
+      def w = { randomNumber -> log.warn 'WARNING MESSAGE VALUE = ' + randomNumber }
       def e = { randomNumber -> log.error 'ERROR MESSAGE VALUE = ' + randomNumber }
 
       def messages = [d, i, w, e]
